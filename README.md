@@ -62,7 +62,7 @@ TensorRT 作为 NVIDIA 英伟达 GPU 上的 AI 推理加速库，在业界得到
 | CLIP(TensorRT FP16)+VAE(FP16+后处理 BS=2)+Combine (FP16 BS=2) + DDIM PostNet(FP32)  Add CudaGraph<br />DDIM PostNet No CudaGraph + GroupNorm Plugin | 5570.2850 | 2023-08-05 20:50:43 |
 | CLIP(TensorRT FP16)+VAE(FP16+后处理 BS=2)+Combine (FP16 BS=2) + DDIM PostNet(FP32)  Add CudaGraph<br />DDIM PostNet No CudaGraph + GroupNorm Plugin  + step=10 | 6892.1675 | 2023-08-08 00:15:29 |
 | CLIP(TensorRT FP16)+VAE(FP16+后处理 BS=2)+Combine (FP16 BS=2) + DDIM PostNet(FP32)  Add CudaGraph<br />DDIM PostNet No CudaGraph + GroupNorm Plugin  + step=10 + 代码逻辑优化 | 7149.9667 | 2023-08-10 07:41:51 |
-| CLIP(TensorRT FP16)+VAE(FP16+后处理 BS=2)+Combine (FP16 BS=2) + DDIM PostNet(FP32)  Add CudaGraph<br />DDIM PostNet No CudaGraph + GroupNorm Plugin  + step=9 + 代码逻辑优化 | 7412.1161 | 2023-08-11 06:47:07 |
+| CLIP(TensorRT FP16)+VAE(FP16+后处理 BS=2)+Combine (FP16 BS=2) + DDIM PostNet(FP32)  Add CudaGraph<br />DDIM PostNet No CudaGraph + GroupNorm Plugin  + step=9 + 代码逻辑优化 | **7412.1161** | 2023-08-11 06:47:07 |
 
 最终初赛排名第三：
 
