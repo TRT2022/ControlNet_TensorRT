@@ -87,6 +87,7 @@ Plugin对Latency无用的尝试：
 代码上的尝试：
 
 + Multi stream无用，不如batch size=2
++ PTQ int8 无用 推理延时变大
 
 > TensorRT 8.6将SD中的一些优化Trick集成到了内部，留给开发者的优化远没有TensorRT8.5要多。
 
